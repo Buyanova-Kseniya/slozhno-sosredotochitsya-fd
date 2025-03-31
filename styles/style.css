@@ -24,7 +24,8 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  block-size: 100dvb;
+  block-size: 100vh;
+  min-height: 668px;
   padding: var(--page-padding, 10px);
 }
 
@@ -145,7 +146,7 @@ main {
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px solid var(--menu-color, #ff0070);
+  outline: 1px solid currentColor;
 }
 
 .text-shadow {
@@ -153,7 +154,7 @@ main {
 }
 
 a.text-shadow:focus-visible {
-  outline: 1px solid var(--text-color, #f1b2ce);
+  outline: 1px solid currentColor;
 }
 
 a.text-shadow:hover {
@@ -220,7 +221,8 @@ a.text-shadow:focus {
   display: grid;
   grid-template-columns: 1fr;
   padding: var(--page-padding, 10px);
-  block-size: 100dvb;
+  block-size: 100vh;
+  min-height: 668px;
 }
 
 .footer__title {
