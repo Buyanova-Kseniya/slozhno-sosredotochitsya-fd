@@ -149,20 +149,21 @@ main {
   outline: 1px solid currentColor;
 }
 
-.text-shadow {
-  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
-}
-
-a.text-shadow:focus-visible {
-  outline: 1px solid currentColor;
-}
-
 a.text-shadow:hover {
   border-block-end: 1px solid var(--text-color, #f1b2ce);
 }
 
+.text-shadow {
+  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  text-decoration: none;
+}
+
 a.text-shadow:focus {
   outline: none;
+}
+
+a.text-shadow:focus-visible {
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 .header__heading {
