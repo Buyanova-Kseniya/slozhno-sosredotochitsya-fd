@@ -11,10 +11,8 @@
   --bg-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .page {
-  .header__decor-corner {
-    display: none;
-  }
+.theme-light .header__decor-corner {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
