@@ -201,7 +201,7 @@ a.text-shadow:focus-visible {
   font-weight: 700;
 }
 
-.article-card__paragraph:not(:last-child) {
+.article-card:not(:last-child) .article-card__paragraph {
   margin-block-end: 20px;
 }
 
