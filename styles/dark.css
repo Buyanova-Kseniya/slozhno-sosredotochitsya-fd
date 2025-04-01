@@ -11,8 +11,10 @@
   --bg-color: #000028;
 }
 
-.theme-dark .page {
-  .header__decorated-corner {
-    display: block;
-  }
+.theme-dark .header__decorated-corner {
+  display: block;
+}
+
+.theme-light .header__decorated-corner {
+  display: none;
 }
